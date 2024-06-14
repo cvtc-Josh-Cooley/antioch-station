@@ -1,0 +1,34 @@
+Code,Name,X,Y,Habitable,Lanes,Owner
+p,Unnamed1,60,15,T,Unnamed2,Monarchist Spain
+p,Unnamed2,60,35,T,Unnamed1|Unnamed3|Zdravka,Monarchist Spain
+p,Unnamed3,50,50,T,Unnamed2,Independent
+p,Zdravka,110,55,H,Unnamed2,White Russia
+p,Unnamed4,140,60,T,Zdravka|Outremar,White Russia
+p,Outremar,160,95,H,Zdravka|Unnamed4,French Empire
+s,Antioch Station,200,105,S,Outremar,French Empire
+p,Edessa,190,130,H,Antioch Station|New Marrakesh,French Empire
+p,New Marrakesh,210,145,H,Edessa,French Empire / Independent
+p,Illyria,100,110,H,Outremar|New Malta,Austrian Empire
+p,Ostmark,100,140,T,Illyria|St. Cyril Station,Austrian Empire
+p,Altair,150,165,H,Barnard's Star|St. Cyril Station|Tannhauser,Austrian Empire
+s,St. Cyril Station,130,145,S,Altair|Edessa|Ostmark,Austrian Empire
+p,Karlsburg,140,175,H,Unnamed5|St. Cyril Station|Aesir,Austrian Empire
+s,Unnamed5,110,180,T,Koniggratz|Karlsburg,Austrian Empire
+p,Tannhauser,200,190,U,Barnard's Star|Altair|Aesir,Austrian Empire / Sternreich
+p,Koniggratz,90,200,H,Unnamed5|Parzival-1,Sternreich
+p,Parzival-1,70,210,H,Koniggratz|Parzival-2,Sternreich
+p,Parzival-2,70,220,U,Nifflheim,Sternreich
+p,Nifflheim,50,250,U,Parzival-2|Athena Planum,Sternreich
+p,Aelfheim,110,255,H,Unnamed5|Odinsgate,Sternreich
+p,Odinsgate,150,220,H,Aelfheim|Aesir,Sternreich
+p,Aesir,150,200,H,Odinsgate|Karlsburg|Tannhauser,Sternreich
+p,Papal Enclave,70,90,H,New Malta,Papal States
+p,New Malta,90,120,H,Papal Enclave|Illyria|Unnamed6,Order of St. John
+p,Unnamed6,90,150,T,New Malta,Papal States
+p,Athena Planum,120,285,H,Nifflheim|Constantimundus|Novus Thessalonika,New Byzantium
+p,Constantimundus,110,300,H,Athena Planum|Novus Thessalonika,New Byzantium
+p,Novus Thessalonika,130,300,T,Athena Planum|Constantimundus,New Byzantium
+p,Rigel,270,145,T,Proxima Centauri,Solar Commonwealth
+p,Proxima Centauri,280,150,H,Rigel|Sol,Solar Commonwealth
+s,Barnard's Star,210,155,U,Altair|Sol|Tannhauser,Earth Gov.
+p,Sol,260,170,H,Barnard's Star|Proxima Centauri,Earth Gov.

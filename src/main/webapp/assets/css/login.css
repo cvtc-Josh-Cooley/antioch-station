@@ -1,0 +1,94 @@
+#login {
+    background-color: rgba(232, 214, 12, .6);
+    border-color: rgba(232, 214, 12, 1);
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 15px 50px;
+    width: 80%;
+    height: 80%;
+    padding: 50px;
+    font-family: MainframeBB;
+    color: rgba(232, 214, 12, 1);
+}
+
+#login > form > input {
+    margin: 5px;
+    background-color: rgba(232, 214, 12, .6);
+    border-color: rgba(232, 214, 12, 1);
+    color: rgba(232, 214, 12, 1);
+    font-family: MainframeBB;
+    padding: 10px 40px;
+    font-size: 125%;
+}
+
+#login > form > input:hover {
+    background-color:rgba(232, 214, 12, 1);
+    border-color:rgba(232, 214, 12, 1);
+    border-width:1px;
+    border-style:solid;
+    border-radius: 5px;
+    color:rgba(138, 127, 10, 1);
+}
+
+#login > form > a {
+    background-color: var(--alpha-bg-color);
+    border-color: var(--main-border-color);
+    border-width:1px;
+    border-style: solid;
+    text-align:center;
+    text-decoration: none;
+    font-family: MainframeBB;
+    color: rgba(232, 214, 12, 1);
+    padding: 10px 40px;
+    font-size: 125%;
+}
+
+#login > form > a:hover {
+    background-color:rgba(232, 214, 12, 1);
+    border-color:rgba(232, 214, 12, 1);
+    border-width:1px;
+    border-style:solid;
+    border-radius: 5px;
+    color:rgba(138, 127, 10, 1);
+}
+
+nav > section {
+    width: 90%;
+    margin-left:10px;
+}
+
+nav > h1 {
+    font-family: MainframeBB;
+    background-color: rgba(232, 214, 12, .6);
+    color: rgba(232, 214, 12, 1);
+    border-color: rgba(232, 214, 12, 1);
+    border-width: 1px;
+    text-align: center;
+}
+
+nav > section > span {
+    font-family: MainframeBB;
+    background-color: rgba(232, 214, 12, .6);
+    color: rgba(232, 214, 12, 1);
+    border-color: rgba(232, 214, 12, 1);
+    border-width: 1px;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+nav > section > div {
+    font-family: MainframeBB;
+    color: rgba(232, 214, 12, 1);
+    background-color: rgba(232, 214, 12, 0.6);
+    width:100%;
+    border-color: rgba(232, 214, 12, 1);
+    border-width: 2px;
+    border-style: dashed;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: inline-block;
+}
